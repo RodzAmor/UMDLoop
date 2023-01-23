@@ -14,20 +14,22 @@ function App() {
   return (
     <div className="container m-auto">
       <Navbar />
-      <h1 className="text-6xl text-white font-poppins gradient font-light pt-12 mt-16 mb-6">
-        Accelerate the Future
-      </h1>
-      <h4 className="text-1xl text-white font-poppins font-light">
-        Creating innovative and sustainable transportation solutions
-      </h4>
-      <div className="flex my-16">
-        <a href="/about" className="text-white bg-umd-red py-2 px-6 rounded-3xl mr-8 font-normal hover:brightness-90">
-          Discover
-          <img src={Arrow} alt="" className="inline pl-4 hover:brightness-90"/>
-        </a>
-        <a href="/contact" className="text-white bg-umd-gray py-2 px-6 rounded-3xl mx-6 font-normal hover:brightness-90">
-          Contact Us
-        </a>
+      <div className="mx-8">
+        <h1 className="text-4xl sm:text-6xl text-white font-poppins gradient font-light pt-12 sm:mt-16 mb-6">
+          Accelerate the Future
+        </h1>
+        <h4 className="text-1xl text-white font-poppins font-light">
+          Creating innovative and sustainable transportation solutions
+        </h4>
+        <div className="flex my-16">
+          <a href="/about" className="text-white bg-umd-red py-2 px-6 rounded-3xl mr-1 sm:mr-8 font-normal hover:brightness-90">
+            Discover
+            <img src={Arrow} alt="" className="inline pl-4 hover:brightness-90"/>
+          </a>
+          <a href="/contact" className="text-white bg-umd-gray py-2 px-6 rounded-3xl mx-1 sm:mx-6 font-normal hover:brightness-90">
+            Contact Us
+          </a>
+        </div>
       </div>
         <div className="flex flex-wrap justify-center">
           <img src={CMNS} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
@@ -46,7 +48,7 @@ function App() {
            </a>
         </h3>
 
-        <div className="w-3/5 my-16 mx-auto">
+        <div className="w-11/12 sm:w-3/5 my-16 mx-auto">
           <h3 className="text-white text-2xl font-poppins text-center font-light">
             A team where
           </h3>
