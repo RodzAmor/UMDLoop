@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import './styles.css';
+import Arrow from './assets/Arrow.svg';
+import CMNS from './assets/companies/CMNS.svg';
+import JamesClark from './assets/companies/JamesClark.svg';
+import L3H from './assets/companies/L3H.svg';
+import Boeing from './assets/companies/Boeing.svg';
+import Altium from './assets/companies/Altium.svg';
+import DTI from './assets/companies/DTI.svg';
+import Siemens from './assets/companies/Siemens.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container m-auto">
+      <Navbar />
+      <h1 className="text-6xl text-white font-poppins gradient font-light pt-12 mt-16 mb-6">
+        Accelerate the Future
+      </h1>
+      <h4 className="text-1xl text-white font-poppins font-light">
+        Creating innovative and sustainable transportation solutions
+      </h4>
+      <div className="flex my-16">
+        <button className="text-white bg-umd-red py-2 px-6 rounded-3xl mr-8 font-normal">
+          Discover
+          <img src={Arrow} alt="" className="inline pl-4"/>
+        </button>
+        <button className="text-white bg-umd-gray py-2 px-6 rounded-3xl mx-8 font-normal">
+          Contact Us
+        </button>
+      </div>
+        <div className="flex flex-wrap justify-center">
+          <img src={CMNS} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+          <img src={JamesClark} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+          <img src={Boeing} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+          <img src={Altium} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+          <img src={L3H} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+          <img src={Siemens} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+          <img src={DTI} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+        </div>
+        <h3 className="text-white text-sm font-poppins font-normal text-center">
+          <span className="text-umd-gray2">Sponsored by some of the world’s most innovative companies. </span>
+           Meet our Sponsors
+           <img src={Arrow} alt="" className="inline pl-2"/>
+        </h3>
     </div>
   );
 }
