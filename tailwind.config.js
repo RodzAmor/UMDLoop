@@ -11,7 +11,7 @@ module.exports = {
         'umd-gray2': 'rgba(255, 255, 255, 0.5)'
       },
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
+        'poppins': ['Poppins', 'sans-serif'],
       }
     },
   },
