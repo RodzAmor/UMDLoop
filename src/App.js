@@ -22,23 +22,23 @@ function App() {
           Creating innovative and sustainable transportation solutions
         </h4>
         <div className="flex my-16">
-          <a href="/about" className="text-white bg-umd-red py-2 px-6 rounded-3xl mr-1 sm:mr-8 font-normal hover:brightness-90">
+          <a href="/about" className="text-white bg-umd-red py-1.5 px-4 sm:py-2 sm:px-6 rounded-3xl mr-1 sm:mr-8 font-normal hover:brightness-90">
             Discover
             <img src={Arrow} alt="" className="inline pl-4 hover:brightness-90"/>
           </a>
-          <a href="/contact" className="text-white bg-umd-gray py-2 px-6 rounded-3xl mx-1 sm:mx-6 font-normal hover:brightness-90">
+          <a href="/contact" className="text-white bg-umd-gray py-1.5 px-4 sm:py-2 sm:px-6 rounded-3xl mx-1 sm:mx-6 font-normal hover:brightness-90">
             Contact Us
           </a>
         </div>
       </div>
-        <div className="flex flex-wrap justify-center pt-16">
-          <img src={CMNS} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
-          <img src={JamesClark} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
-          <img src={Boeing} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
-          <img src={Altium} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
-          <img src={L3H} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
-          <img src={Siemens} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
-          <img src={DTI} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
+        <div className="flex flex-wrap justify-center sm:pt-16">
+          <img src={CMNS} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
+          <img src={JamesClark} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
+          <img src={Boeing} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
+          <img src={Altium} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
+          <img src={L3H} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
+          <img src={Siemens} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
+          <img src={DTI} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-4 sm:my-8' />
         </div>
         <h3 className="text-white text-sm font-poppins font-normal text-center">
           <span className="text-umd-gray2">Sponsored by some of the world’s most innovative companies. </span>
