@@ -31,7 +31,7 @@ function App() {
           </a>
         </div>
       </div>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center pt-16">
           <img src={CMNS} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
           <img src={JamesClark} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
           <img src={Boeing} alt="" className='mx-4 lg:mx-12 xl:mx-20 my-8' />
@@ -48,11 +48,11 @@ function App() {
            </a>
         </h3>
 
-        <div className="w-11/12 sm:w-3/5 my-16 mx-auto">
+        <div className="w-11/12 sm:w-3/5 my-16 mx-auto pt-20">
           <h3 className="text-white text-2xl font-poppins text-center font-light">
             A team where
           </h3>
-          <strong className="block text-4xl text-white font-poppins gradient font-light text-center mt-3 mb-8">
+          <strong className="block text-4xl text-white font-poppins gradient-2 font-light text-center mt-3 mb-8">
             Imagination Meets Execution
           </strong>
           <p className="text-white text-center text-umd-gray2 font-light mt-4 mb-12">

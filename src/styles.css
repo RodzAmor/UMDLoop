@@ -1,5 +1,13 @@
 .gradient {
-    background: linear-gradient(90deg, #E21833 -1.02%, #E84C61 25.29%, #F18D9B 42.65%, #F7BFC6 53.17%, #FFFFFF 100%);
+    background: linear-gradient(90deg, #E21833 1.02%, #E84C61 25.29%, #F18D9B 32.65%, #F7BFC6 48.17%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gradient-2 {
+    background: linear-gradient(90deg, #E21833 1.02%, #E84C61 25.29%, #F18D9B 52.65%, #F7BFC6 70.17%, #FFFFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
