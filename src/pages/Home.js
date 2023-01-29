@@ -1,15 +1,16 @@
-import Navbar from "./components/Navbar";
-import './styles.css';
-import Arrow from './assets/Arrow.svg';
-import CMNS from './assets/companies/CMNS.svg';
-import JamesClark from './assets/companies/JamesClark.svg';
-import L3H from './assets/companies/L3H.svg';
-import Boeing from './assets/companies/Boeing.svg';
-import Altium from './assets/companies/Altium.svg';
-import DTI from './assets/companies/DTI.svg';
-import Siemens from './assets/companies/Siemens.svg';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import '../styles.css';
+import Arrow from '../assets/Arrow.svg';
+import CMNS from '../assets/companies/CMNS.svg';
+import JamesClark from '../assets/companies/JamesClark.svg';
+import L3H from '../assets/companies/L3H.svg';
+import Boeing from '../assets/companies/Boeing.svg';
+import Altium from '../assets/companies/Altium.svg';
+import DTI from '../assets/companies/DTI.svg';
+import Siemens from '../assets/companies/Siemens.svg';
 
-function App() {
+function Home() {
 
   return (
     <div className="container m-auto">
@@ -63,8 +64,9 @@ function App() {
             <img src={Arrow} alt="" className="inline pl-2 hover:brightness-90"/>
           </a>
         </div>
+        <Footer />
     </div>
   );
 }
 
-export default App;
+export default Home;
