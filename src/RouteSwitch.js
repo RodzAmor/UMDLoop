@@ -12,7 +12,8 @@ const RouteSwitch = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/Competitions" element={<Competitions />} />
+                <Route path="/competitions" element={<Competitions />} />
+                <Route path="/competitions/:id" element={<Competitions />} />
                 <Route path="/socialmedia" element={<SocialMedia />} />
             </Routes>
         </BrowserRouter>
