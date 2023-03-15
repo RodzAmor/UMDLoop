@@ -13,7 +13,7 @@ const Navbar = () => {
             <div>
                 <a href="/"><img src={UMDLoopLogo} alt="UMD LOOP" /></a>
             </div>
-            <div>
+            <div className="font-poppins">
                 <a href="/" className="mx-2 my-6 hidden sm:inline-block font-normal hover:text-umd-red hover:underline">Home</a>
                 <a href="/about" className="mx-2 my-6 hidden sm:inline-block font-normal hover:text-umd-red hover:underline">About Us</a>
                 <a href="/competitions" className="mx-2 my-6 hidden sm:inline-block font-normal hover:text-umd-red hover:underline">Competitions</a>

@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 import { FaLinkedin, FaInstagram } from "react-icons/fa"
 // https://tailwindui.com/components/marketing/sections/team-sections
 
-const people=[{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"}]
-
+// const people=[{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"},{name:"name",role:"role"}]
+const people = []
 const SHEET_ID = '1R6T3Ro6dLtuFzyM2bMU73OZ9rNZRUBc-vIxwc574hxU';
 const RANGE = 'Sheet1!A1:C3';
 
